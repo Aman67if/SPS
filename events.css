@@ -142,15 +142,19 @@ nav{
     scale: 1.2;
     transition: scale ease 0.4s;
 }
-.account-section .socialMedia img:hover:nth-child(1){
+.account-section .socialMedia a:nth-child(1){
+    visibility: hidden;
+}
+.account-section .socialMedia a:hover:nth-child(1){
     filter: drop-shadow(0 0 10px rgb(246, 163, 177));
 }
-.account-section .socialMedia img:hover:nth-child(2){
+.account-section .socialMedia a:hover:nth-child(2){
     filter: drop-shadow(0 0 10px rgb(100, 216, 133));
 }
-.account-section .socialMedia img:hover:nth-child(3){
-    filter: drop-shadow(0 0 10px rgb(92, 136, 231));
+.account-section .socialMedia a:hover:nth-child(3){
+    filter: drop-shadow(0 0 10px rgb(90, 138, 242));
 }
+
 .heading{
     font-size: 1.8rem;
     height: 4.3rem;
